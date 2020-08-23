@@ -1,4 +1,4 @@
-# Default values for sshd-chart.
+# Default values for my-sshd.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -10,13 +10,15 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
-environment:
-  SSH_USER: max
-  SSH_KEY: 123123
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+
+
+environments:
+  SSH_USER: max
+  SSH_KEY: $(PUB_KEY)
+
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -43,6 +45,7 @@ securityContext: {}
 service:
   type: NodePort
   port: 2222
+
 ingress:
   enabled: false
   annotations: {}
