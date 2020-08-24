@@ -16,8 +16,8 @@ fullnameOverride: ""
 
 
 environments:
-  SSH_USER: max
-  SSH_KEY: $(PUB_KEY)
+  SSH_USER: ${SSH_USER}
+  SSH_KEY: ${SSH_KEY}
 
 
 serviceAccount:
