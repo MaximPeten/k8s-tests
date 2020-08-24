@@ -16,8 +16,8 @@ fullnameOverride: ""
 
 
 environments:
-  SSH_USER: ${SSH_USER}
-  SSH_KEY: ${SSH_KEY}
+  SSH_USER: max
+  SSH_KEY: "key"
 
 
 serviceAccount:
@@ -44,7 +44,7 @@ securityContext: {}
 
 service:
   type: NodePort
-  port: 2222
+  port: 22
 
 ingress:
   enabled: false
