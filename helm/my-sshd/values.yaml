@@ -16,11 +16,10 @@ fullnameOverride: ""
 
 
 env:
-  sshd:
-    SSH_USER: max
-    SSH_KEY: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdjFPeNgm72Gdd1QPRbNfbADx40blkb5Noh2rSBMDGRf+Yynh6wzniyUWmblU87xb8uRvfyFzH8sxtgovp30kXYYkDuCK1n
-    4pBf6Kz0sIa0EuVOBvCB3hnX+hgooskXVavcJQtcetwaX7zrr9wh1klhJq+glLvbEd82O4XOaGuVEfbZ39UjRMaOOF2HGNh+3Rlt8DvhKWI2ZbOOccFpbZTDOwXRQv3pkz4O4
-    5jb0eDpAY2VkUCbpW3iWy36kPaWkS+Yw42S5IEpnHJldqqHRiaKQuz3rBxgbZ5QFq+USZBK+B+P8ux+toYTsHMy7fDRjUuNrhTHVjbwLxFVfu9hj0p root@controlplane"
+  SSH_USER: max
+  SSH_KEY: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdjFPeNgm72Gdd1QPRbNfbADx40blkb5Noh2rSBMDGRf+Yynh6wzniyUWmblU87xb8uRvfyFzH8sxtgovp30kXYYkDuCK1n
+4pBf6Kz0sIa0EuVOBvCB3hnX+hgooskXVavcJQtcetwaX7zrr9wh1klhJq+glLvbEd82O4XOaGuVEfbZ39UjRMaOOF2HGNh+3Rlt8DvhKWI2ZbOOccFpbZTDOwXRQv3pkz4O4
+5jb0eDpAY2VkUCbpW3iWy36kPaWkS+Yw42S5IEpnHJldqqHRiaKQuz3rBxgbZ5QFq+USZBK+B+P8ux+toYTsHMy7fDRjUuNrhTHVjbwLxFVfu9hj0p root@controlplane"
 
 
 serviceAccount:

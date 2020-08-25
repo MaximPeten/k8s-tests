@@ -1,5 +1,5 @@
-{{- SSH_USER := .Values.env.sshd.SSH_USER -}}
-{{- SSH_KEY := .Values.env.sshd.SSH_KEY -}}
+{{- $SSH_USER := .Values.env.SSH_USER -}}
+{{- $SSH_KEY := .Values.env.SSH_KEY -}}
 
 ---
 
